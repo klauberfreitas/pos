@@ -1,0 +1,49 @@
+# Tarefas
+## 1 - Exploração de dados:
+
+- (A) Carregue a base de dados e explore suas características. ✔️
+- (B) Analise estatísticas descritivas e visualize distribuições relevantes. ✔️
+
+## 2 - Pré-processamento de dados:
+- (A) Realize   a   limpeza   dos   dados,   tratando   valores   ausentes (se necessário).
+- (B) Converta   variáveis   categóricas   em   formatos   adequados   para modelagem.
+- (C) Divida o conjunto de dados em conjuntos de treinamento e teste [1].
+- (D) Crie  um modelo  preditivo  de  regressão utilizando uma técnica à  sua escolha (por exemplo, Regressão Linear, Árvores de Decisão etc) [1].
+   - (1) Regressão Linear [2]
+   - (2) Árvores de Decisão [2]
+
+[1] Os itens C e D foram trocados de ordem para que o fluxo siga da meneira correta no código.
+[2] Serão criados os dois modelos.
+
+## 3 - Treinamento e avaliação do modelo:
+- (A) Treine o modelo com o conjunto de treinamento.
+
+### 4 - Validação estatística:
+- (A) Utilize métricas estatísticas para validar a eficácia do modelo (p-value, intervalos de confiança).
+
+## O que avaliaremos:
+Apresente  resultados  visuais,  como  gráficos  de  previsões  vs.  valores reais.
+
+Elabore  um  relatório  que  inclua  uma  análise  dos  resultados,  insights obtidos e validação estatística.
+
+## Observações:
+Esperamos que  o  modelo  seja  capaz  de  fazer  previsões  confiáveis  dos custos médicos individuais com base nas características fornecidas.
+
+
+sb.pairplot(dados, hue="gênero")
+plt.show()
+
+
+plt.figure(figsize=(12, 5))
+plt.title("Distribuição de Idade")
+ax = sb.histplot(dados["idade"], kde=True)
+plt.xlabel("Idade")
+plt.ylabel("Frequência")
+plt.show()
+
+plt.figure(figsize=(12,5))
+plt.title("Distribuição dos custos")
+y = sb.displot(dados["charges"], color = 'b')
+
+housing_tr = pd.DataFrame(x, columns=x.columns, index=x.index)
+housing_tr

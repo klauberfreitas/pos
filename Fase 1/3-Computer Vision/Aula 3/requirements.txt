@@ -1,0 +1,6 @@
+pip install pytesseract
+pip install tesseract-ocr
+pip install libtesseract-dev
+pip install tesseract-ocr-por
+pip install paddleocr==2.7.3
+pip install paddlepaddle==2.6.1
