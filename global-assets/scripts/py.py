@@ -35,7 +35,7 @@ def preprocess_text(text):
 
 df = pd.read_csv('global-assets/datasets/b2w.csv')
 
-df['processed_text'] = df['review_text'].apply(preprocess_text)
+df['processed_text'] = df['review_text'].apply(preprocess_text) 
 
 all_tokens = [token for sublist in df['processed_text'] for token in sublist]
 
