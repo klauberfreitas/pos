@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./Fase 2/assets"
+    ],
+    "editor.accessibilitySupport": "off",
+}
