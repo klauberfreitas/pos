@@ -1,0 +1,30 @@
+[
+    {
+        "question": "Who wrote The Very Bad Bunny?",
+        "answer": "",
+        "expected": "Marilyn Sadler",
+        "context" : "",
+        "accurate": false
+    },
+    {
+        "question": "Who is in a distant, timeless place?",
+        "answer": "",
+        "expected": "The Prophet",
+        "context" : "",
+        "accurate": false
+    },
+    {
+        "question": "What is the most research-crammed fantasy?",
+        "answer": "",
+        "expected": "Autumn Story Brambly Hedge",
+        "context" : "",
+        "accurate": false
+    },
+    {
+        "question": "Complete the sentence: the form utilises all his strengths of acute observation",
+        "answer": "",
+        "expected": "gentle wit and humane acceptance of human diversity",
+        "context" : "",
+        "accurate": false
+    }
+]
